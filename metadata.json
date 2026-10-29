@@ -1,0 +1,6 @@
+{
+  "name": "Tengri Phantasm Sweetshop - Spooky Sweets",
+  "description": "Surreal, playful-gothic confectionary store with eerie treats, midnight potion vials, radioactive sweets, and courier delivery across Kazakhstan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,235 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-primary: #ffb693;
+  --color-primary-container: #ff6b00;
+  --color-on-primary: #561f00;
+  --color-on-primary-container: #572000;
+  --color-primary-fixed: #ffdbcc;
+  --color-primary-fixed-dim: #ffb693;
+  --color-on-primary-fixed: #351000;
+  --color-on-primary-fixed-variant: #7a3000;
+
+  --color-secondary: #d7ffc5;
+  --color-secondary-container: #2ff801;
+  --color-secondary-fixed: #79ff5b;
+  --color-secondary-fixed-dim: #2ae500;
+  --color-on-secondary: #053900;
+  --color-on-secondary-container: #0f6d00;
+  --color-on-secondary-fixed: #022100;
+  --color-on-secondary-fixed-variant: #095300;
+
+  --color-tertiary: #dcb8ff;
+  --color-tertiary-container: #bb7aff;
+  --color-on-tertiary: #480081;
+  --color-on-tertiary-container: #490083;
+  --color-tertiary-fixed: #efdbff;
+  --color-tertiary-fixed-dim: #dcb8ff;
+  --color-on-tertiary-fixed: #2c0051;
+  --color-on-tertiary-fixed-variant: #6700b5;
+
+  --color-surface: #131313;
+  --color-surface-dim: #131313;
+  --color-surface-bright: #3a3939;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container: #201f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-surface-variant: #353534;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #e2bfb0;
+  --color-inverse-surface: #e5e2e1;
+  --color-inverse-on-surface: #313030;
+
+  --color-outline: #a98a7d;
+  --color-outline-variant: #5a4136;
+  --color-surface-tint: #ffb693;
+
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    font-family: "Inter", sans-serif;
+    color: #e5e2e1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 16px);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+/* Material Symbols icon utility */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+/* Typography tokens from Stitch specification */
+.font-display-lg {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.font-display-lg-mobile {
+  font-family: "EB Garamond", serif;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.font-headline-lg {
+  font-family: "EB Garamond", serif;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.font-headline-md {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.font-headline-sm {
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.font-price-display {
+  font-family: "EB Garamond", serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.font-body-lg {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.font-body-sm {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.font-label-lg {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.font-label-md {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.font-label-sm {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+/* Custom Spacing tokens */
+.px-gutter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-margin-mobile {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.p-space-xs { padding: 0.25rem; }
+.p-space-sm { padding: 0.5rem; }
+.p-space-md { padding: 1rem; }
+.p-space-lg { padding: 1.5rem; }
+.p-space-xl { padding: 2.5rem; }
+
+.gap-space-xs { gap: 0.25rem; }
+.gap-space-sm { gap: 0.5rem; }
+.gap-space-md { gap: 1rem; }
+.gap-space-lg { gap: 1.5rem; }
+
+.space-y-space-sm > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 0.5rem;
+}
+.space-y-space-md > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 1rem;
+}
+
+/* Glow utility shadows */
+.glow-pumpkin {
+  box-shadow: 0 0 20px rgba(255, 107, 0, 0.45);
+}
+
+.glow-acid {
+  box-shadow: 0 0 12px rgba(57, 255, 20, 0.5);
+}
+
+.glow-spectral {
+  box-shadow: 0 0 16px rgba(187, 122, 255, 0.35);
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

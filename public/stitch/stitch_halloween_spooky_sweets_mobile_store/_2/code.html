@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#131313;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "primary": "#ffb693", "surface-bright": "#3a3939", "on-secondary-container": "#0f6d00", "outline-variant": "#5a4136", "secondary-container": "#2ff801", "tertiary-fixed": "#efdbff", "tertiary-fixed-dim": "#dcb8ff", "surface-container-lowest": "#0e0e0e", "tertiary": "#dcb8ff", "surface-container-highest": "#353534", "secondary": "#d7ffc5", "surface-variant": "#353534", "on-tertiary-fixed": "#2c0051", "on-background": "#e5e2e1", "on-secondary-fixed-variant": "#095300", "on-primary-fixed-variant": "#7a3000", "error-container": "#93000a", "error": "#ffb4ab", "on-tertiary-container": "#490083", "secondary-fixed": "#79ff5b", "surface-container-low": "#1c1b1b", "outline": "#a98a7d", "on-secondary": "#053900", "surface": "#131313", "surface-container-high": "#2a2a2a", "on-primary": "#561f00", "surface-tint": "#ffb693", "primary-container": "#ff6b00", "on-surface": "#e5e2e1", "surface-container": "#201f1f", "secondary-fixed-dim": "#2ae500", "on-tertiary": "#480081", "inverse-primary": "#a04100", "tertiary-container": "#bb7aff", "inverse-surface": "#e5e2e1", "on-error": "#690005", "primary-fixed": "#ffdbcc", "on-primary-container": "#572000", "on-surface-variant": "#e2bfb0", "background": "#131313", "on-tertiary-fixed-variant": "#6700b5", "inverse-on-surface": "#313030", "primary-fixed-dim": "#ffb693", "on-primary-fixed": "#351000", "surface-dim": "#131313", "on-error-container": "#ffdad6", "on-secondary-fixed": "#022100" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "margin-mobile": "1rem", "space-lg": "1.5rem", "gutter": "1rem", "gutter-mobile": "0.75rem", "margin": "1.5rem", "space-xl": "2.5rem", "space-md": "1rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, fontFamily: { "label-sm": ["Inter"], "label-md": ["Inter"], "label-lg": ["Inter"], "display-lg-mobile": ["EB Garamond"], "body-lg": ["Inter"], "body-md": ["Inter"], "headline-md": ["EB Garamond"], "body-sm": ["Inter"], "headline-sm": ["EB Garamond"], "price-display": ["EB Garamond"], "display-lg": ["EB Garamond"], "headline-lg": ["EB Garamond"] }, fontSize: { "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg-mobile": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "price-display": ["24px", { "lineHeight": "28px", "fontWeight": "700" }], "display-lg": ["40px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_16px_rgba(0,0,0,0.5)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><button aria-label="Назад" class="w-11 h-11 flex items-center justify-center rounded-xl bg-surface-container-low text-on-surface hover:text-primary transition-colors flex-shrink-0" onclick="history.back()"><span class="material-symbols-outlined">arrow_back_ios_new</span></button><h1 class="font-headline-sm text-headline-sm text-on-surface truncate">Оформление Заказа</h1></div><div class="flex items-center gap-space-xs flex-shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary-container/40" src="https://lh3.googleusercontent.com/aida/AEtjO1V2QkoICgozXbVsmpQ4I2IvGpDiGzAG0-3KyQ2bRePzBQlXNRd9to40pMcT2_lKygao4m5FRN3jq_PRN87Xmr1uuV15A1NMcKTewIutx6eg5-5MhTodpLHqs5yH5QXcrG3UC7M4Yzuh0Z58r0OLbBSq2KYYIf7GHTYaH6xWPDGM9FpKmBRU5RaWI4EBBqmrn7cEk-BNpWPOVmDZ0-k-nTcX3CZOx540UgOss-cbpRA"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full px-gutter pb-space-xl space-y-space-md">
+<!-- Delivery Method Alert Notice -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-high p-space-md shadow-lg">
+<div class="absolute -right-6 -bottom-6 w-24 h-24 rounded-full bg-primary-container/10 blur-xl pointer-events-none"></div>
+<div class="flex items-start gap-space-sm relative z-10">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">sports_motorsports</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs flex-wrap mb-1">
+<span class="font-label-sm text-label-sm uppercase bg-secondary-container/20 text-secondary-fixed-dim px-2 py-0.5 rounded-full tracking-wider">
+            Эксклюзивно
+          </span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">
+            Только курьерская доставка
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Самовывоз временно опечатан ведьминским кругом. Курьеры примчат прямо к порогу в Алматы, Астане и по всему Казахстану.
+        </p>
+</div>
+</div>
+</div>
+<!-- Delivery Courier Character Visual -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-sm shadow-md">
+<div class="flex items-center gap-space-md">
+<img class="w-16 h-16 rounded-lg object-cover shrink-0 shadow-inner" data-alt="A stylized playful gothic courier in a midnight black cloak with neon orange pumpkin accents and lime-green glowing details holding a spectral parcel box on a dark mist-filled street in Almaty. Surreal candy fantasy aesthetic, bioluminescent ambient glows, cinematic octane render." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsprM_x_m0p5lOgJHq-7JAKTzfyZSE9ZejdegfXyeMvhTn2qN_geqY0ErXW_oYSffLWquj3VxObtS3GEo-jfZ5-E00bVVGkkkGs0fNROfuNIyh5pKRk6nYasffk_tF1oO8UY0b6mOApGlOTRapTd355Sm2SCfCcKxgG6SVYH2rh4QozNN8IvoGgfOZg-1V_lQEtC6Bldeb0R_BOUqAvJk7Zlo1xhOIER9O-qIPLXE"/>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Ночной дозор сладостей</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Бесконтактный ритуал передачи заказов в руки или под дверь</span>
+</div>
+</div>
+</div>
+<!-- Main Checkout Form Section -->
+<div class="flex flex-col space-y-space-md bg-surface-container rounded-xl p-space-md shadow-xl">
+<div class="flex items-center justify-between pb-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Данные получателя</h2>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">Шаг 1 из 2</span>
+</div>
+<!-- Name Field -->
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface-variant" for="input-name">Имя и фамилия</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-headline-sm pointer-events-none">person</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md rounded-lg pl-10 pr-space-md py-3 transition-all duration-200 focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_14px_rgba(255,107,0,0.3)]" id="input-name" placeholder="Ваше тайное имя" type="text" value="Алиса Воронова"/>
+</div>
+</div>
+<!-- Phone Field -->
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface-variant" for="input-phone">Телефон для связи</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-headline-sm pointer-events-none">call</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md rounded-lg pl-10 pr-space-md py-3 transition-all duration-200 focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_14px_rgba(255,107,0,0.3)]" id="input-phone" placeholder="+7 (___) ___-__-__" type="tel" value="+7 (777) 131-66-99"/>
+</div>
+</div>
+<!-- City Selection with Quick Chips -->
+<div class="flex flex-col space-y-2">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface-variant" for="input-city">Город доставки</label>
+<span class="font-label-sm text-label-sm text-secondary-fixed-dim">Быстрый выбор</span>
+</div>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-headline-sm pointer-events-none">location_city</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md rounded-lg pl-10 pr-space-md py-3 transition-all duration-200 focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_14px_rgba(255,107,0,0.3)]" id="input-city" placeholder="Укажите город" type="text" value="Алматы"/>
+</div>
+<!-- Quick City Chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto py-1 no-scrollbar" id="city-chips">
+<button class="city-chip font-label-md text-label-md px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-semibold transition-all shrink-0 shadow-sm" onclick="selectCity('Алматы', this)" type="button">
+          Алматы
+        </button>
+<button class="city-chip font-label-md text-label-md px-3 py-1.5 rounded-full bg-surface-container-highest text-on-surface transition-all shrink-0 hover:bg-surface-bright" onclick="selectCity('Астана', this)" type="button">
+          Астана
+        </button>
+<button class="city-chip font-label-md text-label-md px-3 py-1.5 rounded-full bg-surface-container-highest text-on-surface transition-all shrink-0 hover:bg-surface-bright" onclick="selectCity('Шымкент', this)" type="button">
+          Шымкент
+        </button>
+<button class="city-chip font-label-md text-label-md px-3 py-1.5 rounded-full bg-surface-container-highest text-on-surface transition-all shrink-0 hover:bg-surface-bright" onclick="selectCity('Караганда', this)" type="button">
+          Караганда
+        </button>
+</div>
+</div>
+<!-- Street Address Field -->
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface-variant" for="input-address">Точный адрес (улица, дом, квартира)</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-headline-sm pointer-events-none">home_pin</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md rounded-lg pl-10 pr-space-md py-3 transition-all duration-200 focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_14px_rgba(255,107,0,0.3)]" id="input-address" placeholder="Улица, дом, квартира" type="text" value="пр. Абая, д. 44, кв. 13, этаж 5"/>
+</div>
+</div>
+<!-- Courier Note Field -->
+<div class="flex flex-col space-y-1">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface-variant" for="input-notes">Тайное послание курьеру</label>
+<span class="font-label-sm text-label-sm text-outline">постучать 3 раза</span>
+</div>
+<div class="relative">
+<textarea class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md rounded-lg p-space-sm transition-all duration-200 focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_14px_rgba(255,107,0,0.3)] resize-none" id="input-notes" placeholder="Особые инструкции для доставки..." rows="2">Оставьте у двери и постучите три раза, домофон 13K</textarea>
+</div>
+</div>
+</div>
+<!-- Delivery Slot Picker -->
+<div class="flex flex-col space-y-space-sm bg-surface-container rounded-xl p-space-md shadow-xl">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-headline-sm">schedule</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Время полуночного визита</h3>
+</div>
+<div class="grid grid-cols-1 gap-space-xs mt-2" id="slot-picker">
+<!-- Slot 1 (Selected) -->
+<label class="slot-option relative flex items-center justify-between p-space-sm rounded-lg bg-surface-container-highest cursor-pointer transition-all">
+<input checked="" class="hidden" name="delivery_time" onchange="updateSlotSelection(this)" type="radio"/>
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="slot-radio-indicator w-5 h-5 rounded-full bg-secondary-container flex items-center justify-center shrink-0 shadow-[0_0_8px_rgba(47,248,1,0.5)]">
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest"></span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Сегодня, 31 октября</span>
+<span class="font-body-sm text-body-sm text-secondary-fixed-dim">20:00 — 22:00 (Час пик нечисти)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm uppercase bg-surface-container-lowest text-primary px-2 py-0.5 rounded-full shrink-0">
+          Срочно
+        </span>
+</label>
+<!-- Slot 2 -->
+<label class="slot-option relative flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low cursor-pointer transition-all hover:bg-surface-container-highest">
+<input class="hidden" name="delivery_time" onchange="updateSlotSelection(this)" type="radio"/>
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="slot-radio-indicator w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
+<span class="w-2 h-2 rounded-full bg-transparent"></span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Завтра, 1 ноября</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">К вечернему шабашу (19:00 — 21:00)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-outline shrink-0">Планово</span>
+</label>
+</div>
+</div>
+<!-- Order Items Micro Gallery -->
+<div class="flex flex-col space-y-space-xs bg-surface-container rounded-xl p-space-md shadow-xl">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Состав посылки</span>
+<span class="font-body-sm text-body-sm text-primary">3 зелья • 0.85 кг</span>
+</div>
+<div class="grid grid-cols-3 gap-space-xs pt-1">
+<div class="relative rounded-lg overflow-hidden bg-surface-container-lowest aspect-square group">
+<img class="w-full h-full object-cover" data-alt="Glow-in-the-dark radioactive sour gummy eyeballs and toxic neon-green jelly spiders in a frosted potion flask. High contrast Halloween candy presentation against obsidian black backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHyd7vOdTqJn2xbihWOhmD65lTwB1rMYFi2VF9XIG8B8hSyUjGDjIHwTHYgWsJYobcCwSgB2gjpyN_fyjd6n3ZK6-kqyN0B9IYmbSbDOXvF6G78zmeJzgi8zuxadxhVRm7s6vGVLSwS01c-_PiMzPUV0zfYAL4QDcCDvKqL77nKKRUQVOq7QJ9SK3O0G27l3k7P8LDamQmCX0GfpS1zVtJLL0-OuWfmWEy0HbjLB4"/>
+<span class="absolute bottom-1 right-1 font-label-sm text-label-sm bg-surface-container-lowest/80 text-secondary-fixed-dim px-1.5 rounded">1 шт</span>
+</div>
+<div class="relative rounded-lg overflow-hidden bg-surface-container-lowest aspect-square group">
+<img class="w-full h-full object-cover" data-alt="Pitch black licorice bat candies with molten spicy pumpkin caramel center dripping with vivid orange glaze on dark slate. Dark atmospheric dessert photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwvHs29UwWE4LqtB-gT0jVPHwPUu7-u_ioFWZcotWFy6Kit-HwGlG2ewl7RijvJUiCeFUqGh9Y4a4wSgMXj5n9lugm-qAl6UpbQj1EfJdsgTazjtWr5Oj3tTFCjkHoAMEbfZFBZUHAGkaeAs0frVLq3Lj4wkb7VhHNvJrBWuh6UuHOet1tB4udvRKaDlK-fUlB_hqSvFzcgVzYtOi3aeGTKGBNhicPQF-LrQtHzBU"/>
+<span class="absolute bottom-1 right-1 font-label-sm text-label-sm bg-surface-container-lowest/80 text-secondary-fixed-dim px-1.5 rounded">1 шт</span>
+</div>
+<div class="relative rounded-lg overflow-hidden bg-surface-container-lowest aspect-square group">
+<img class="w-full h-full object-cover" data-alt="Neon violet popping sugar crystals dusted with witching-hour spectral dust inside a smoked gothic glass candy container. Violet and amber reflections." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCX9p5ZxpElDMdEKopR6MR82HLG-s2O7Zeb9NTehK_CWhOfohbO8wxJEBmNJh7_6G2Mf8iqJK7I5TNq6-3_nghCj7mvFfKUduCFC9606OjTFL9nHu6Ox9HN-6X7Zvu9YKg8SCyoscl9NGSE318WOXzlva8APPS2QqUcmnxSCO4f7FStQFJ6gizgoBSz5e2ETDWECWVyd4roUb_WiQnCm4SfMBmt4g9K5GqyIYa9npA"/>
+<span class="absolute bottom-1 right-1 font-label-sm text-label-sm bg-surface-container-lowest/80 text-secondary-fixed-dim px-1.5 rounded">1 шт</span>
+</div>
+</div>
+</div>
+<!-- Cost Summary Card -->
+<div class="flex flex-col space-y-space-sm bg-surface-container-high rounded-xl p-space-md shadow-xl relative overflow-hidden">
+<div class="absolute -left-12 -top-12 w-28 h-28 rounded-full bg-secondary-container/5 blur-2xl pointer-events-none"></div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pb-1">Расчёт ритуала</h3>
+<div class="flex flex-col space-y-2 font-body-md text-body-md">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span>Заказ: 3 позиции</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">13 700 <span class="text-primary-container">₸</span></span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span>Курьерская доставка</span>
+<span class="material-symbols-outlined text-body-sm text-secondary-fixed-dim">verified</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">1 500 <span class="text-primary-container">₸</span></span>
+</div>
+<div class="flex items-center justify-between text-secondary-fixed-dim font-label-md text-label-md">
+<span>Магическая скидка полнолуния</span>
+<span>-1 200 ₸</span>
+</div>
+</div>
+<!-- Soft division spacer using background tokens -->
+<div class="h-px bg-surface-container-highest w-full my-1"></div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Итого к оплате</span>
+<span class="font-body-sm text-body-sm text-outline">НДС и доставка включены</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display-lg-mobile text-display-lg-mobile text-on-surface font-bold tracking-tight">14 000</span>
+<span class="font-headline-md text-headline-md text-primary-container font-bold">₸</span>
+</div>
+</div>
+</div>
+<!-- Primary CTA Action Section -->
+<div class="flex flex-col space-y-space-sm pt-2">
+<button class="w-full relative overflow-hidden group py-4 px-space-lg rounded-xl bg-primary-container text-on-primary-container font-label-lg text-label-lg font-bold tracking-wide uppercase shadow-[0_0_24px_rgba(255,107,0,0.45)] transition-all duration-200 active:scale-[0.98] hover:shadow-[0_0_30px_rgba(47,248,1,0.4)] flex items-center justify-center gap-2" id="order-submit-btn" onclick="triggerOrderSuccess()" type="button">
+<span class="material-symbols-outlined text-headline-sm transition-transform group-hover:rotate-12">local_fire_department</span>
+<span>Оформить заказ — 14 000 ₸</span>
+</button>
+<!-- Trust Badges & Local Payment Gateways -->
+<div class="flex flex-col items-center justify-center space-y-2 pt-1">
+<div class="flex items-center gap-space-sm">
+<!-- Kaspi Pay Tag -->
+<div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-highest shadow-sm">
+<div class="w-3.5 h-3.5 rounded-full bg-error flex items-center justify-center text-on-error font-bold text-[9px] leading-none">K</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Kaspi Pay</span>
+</div>
+<!-- Kazakhstan Bank Cards Tag -->
+<div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-highest shadow-sm">
+<span class="material-symbols-outlined text-body-sm text-primary">credit_card</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Карты РК</span>
+</div>
+<!-- Apple/Google Pay Tag -->
+<div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-highest shadow-sm">
+<span class="material-symbols-outlined text-body-sm text-secondary-fixed-dim">contactless</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">NFC</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-label-sm">lock</span>
+        Безопасная оплата через шлюз Национального Банка РК
+      </p>
+</div>
+</div>
+</div>
+<script>
+  function selectCity(cityName, btn) {
+    const cityInput = document.getElementById('input-city');
+    if (cityInput) {
+      cityInput.value = cityName;
+    }
+    const chips = document.querySelectorAll('.city-chip');
+    chips.forEach(c => {
+      c.className = 'city-chip font-label-md text-label-md px-3 py-1.5 rounded-full bg-surface-container-highest text-on-surface transition-all shrink-0 hover:bg-surface-bright';
+    });
+    btn.className = 'city-chip font-label-md text-label-md px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-semibold transition-all shrink-0 shadow-sm';
+  }
+
+  function updateSlotSelection(radioInput) {
+    const allOptions = document.querySelectorAll('.slot-option');
+    allOptions.forEach(opt => {
+      opt.className = 'slot-option relative flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low cursor-pointer transition-all hover:bg-surface-container-highest';
+      const dotContainer = opt.querySelector('.slot-radio-indicator');
+      const innerDot = dotContainer.querySelector('span');
+      dotContainer.className = 'slot-radio-indicator w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0';
+      innerDot.className = 'w-2 h-2 rounded-full bg-transparent';
+    });
+
+    const chosenOption = radioInput.closest('.slot-option');
+    if (chosenOption) {
+      chosenOption.className = 'slot-option relative flex items-center justify-between p-space-sm rounded-lg bg-surface-container-highest cursor-pointer transition-all';
+      const dotContainer = chosenOption.querySelector('.slot-radio-indicator');
+      const innerDot = dotContainer.querySelector('span');
+      dotContainer.className = 'slot-radio-indicator w-5 h-5 rounded-full bg-secondary-container flex items-center justify-center shrink-0 shadow-[0_0_8px_rgba(47,248,1,0.5)]';
+      innerDot.className = 'w-2 h-2 rounded-full bg-surface-container-lowest';
+    }
+  }
+
+  function triggerOrderSuccess() {
+    const btn = document.getElementById('order-submit-btn');
+    if (!btn) return;
+    btn.disabled = true;
+    btn.innerHTML = `
+      <span class="material-symbols-outlined text-headline-sm animate-spin">refresh</span>
+      <span>Связываемся с духами...</span>
+    `;
+    setTimeout(() => {
+      btn.className = 'w-full py-4 px-space-lg rounded-xl bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-bold tracking-wide uppercase shadow-[0_0_24px_rgba(47,248,1,0.6)] flex items-center justify-center gap-2';
+      btn.innerHTML = `
+        <span class="material-symbols-outlined text-headline-sm">check_circle</span>
+        <span>Заказ #1331 принят!</span>
+      `;
+    }, 900);
+  }
+</script></main></body></html>
